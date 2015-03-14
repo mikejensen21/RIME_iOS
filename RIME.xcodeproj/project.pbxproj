@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C92F1C851AAE59BA009BBBEE /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C92F1C821AAE59BA009BBBEE /* GCDAsyncSocket.m */; };
+		C92F1C861AAE59BA009BBBEE /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C92F1C841AAE59BA009BBBEE /* GCDAsyncUdpSocket.m */; };
+		C92F1C891AAE69DB009BBBEE /* ConnectivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92F1C881AAE69DB009BBBEE /* ConnectivityViewController.m */; };
+		C92F1C8C1AAE6AD9009BBBEE /* ConnectivityInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C92F1C8B1AAE6AD9009BBBEE /* ConnectivityInfo.m */; };
+		C92F1C8F1AAE73F7009BBBEE /* RIMEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92F1C8E1AAE73F7009BBBEE /* RIMEViewController.m */; };
 		C965D3CF1AACDB31001BA5DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C965D3CE1AACDB31001BA5DD /* main.m */; };
 		C965D3D21AACDB31001BA5DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C965D3D11AACDB31001BA5DD /* AppDelegate.m */; };
 		C965D3D51AACDB31001BA5DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C965D3D41AACDB31001BA5DD /* ViewController.m */; };
@@ -14,6 +19,12 @@
 		C965D3DA1AACDB31001BA5DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C965D3D91AACDB31001BA5DD /* Images.xcassets */; };
 		C965D3DD1AACDB31001BA5DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C965D3DB1AACDB31001BA5DD /* LaunchScreen.xib */; };
 		C965D3E91AACDB31001BA5DD /* RIMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = C965D3E81AACDB31001BA5DD /* RIMETests.m */; };
+		C9AB53301AAF54EF00C225E8 /* NS+OSCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AB53281AAF54EF00C225E8 /* NS+OSCAdditions.m */; };
+		C9AB53311AAF54EF00C225E8 /* OSCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AB532A1AAF54EF00C225E8 /* OSCConnection.m */; };
+		C9AB53321AAF54EF00C225E8 /* OSCDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AB532D1AAF54EF00C225E8 /* OSCDispatcher.m */; };
+		C9AB53331AAF54EF00C225E8 /* OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AB532F1AAF54EF00C225E8 /* OSCPacket.m */; };
+		C9AB53391AAF59E900C225E8 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AB53361AAF59E900C225E8 /* AsyncSocket.m */; };
+		C9AB533A1AAF59E900C225E8 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AB53381AAF59E900C225E8 /* AsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C965D3C91AACDB31001BA5DD /* RIME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RIME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92F1C811AAE59BA009BBBEE /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = ../../CocoaAsyncSocket/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		C92F1C821AAE59BA009BBBEE /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = ../../CocoaAsyncSocket/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		C92F1C831AAE59BA009BBBEE /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = ../../CocoaAsyncSocket/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		C92F1C841AAE59BA009BBBEE /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = ../../CocoaAsyncSocket/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		C92F1C871AAE69DB009BBBEE /* ConnectivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectivityViewController.h; sourceTree = "<group>"; };
+		C92F1C881AAE69DB009BBBEE /* ConnectivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectivityViewController.m; sourceTree = "<group>"; };
+		C92F1C8A1AAE6AD9009BBBEE /* ConnectivityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectivityInfo.h; sourceTree = "<group>"; };
+		C92F1C8B1AAE6AD9009BBBEE /* ConnectivityInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectivityInfo.m; sourceTree = "<group>"; };
+		C92F1C8D1AAE73F7009BBBEE /* RIMEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIMEViewController.h; sourceTree = "<group>"; };
+		C92F1C8E1AAE73F7009BBBEE /* RIMEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIMEViewController.m; sourceTree = "<group>"; };
 		C965D3CD1AACDB31001BA5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C965D3CE1AACDB31001BA5DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C965D3D01AACDB31001BA5DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,9 +57,27 @@
 		C965D3D71AACDB31001BA5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C965D3D91AACDB31001BA5DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C965D3DC1AACDB31001BA5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C965D3E21AACDB31001BA5DD /* RIMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RIMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C965D3E71AACDB31001BA5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C965D3E81AACDB31001BA5DD /* RIMETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIMETests.m; sourceTree = "<group>"; };
+		C9AB53021AAF510900C225E8 /* RIME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RIME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AB53031AAF510900C225E8 /* RIMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RIMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AB53251AAF54EF00C225E8 /* CocoaOSC-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CocoaOSC-Prefix.pch"; path = "../../CocoaOSC/CocoaOSC/CocoaOSC-Prefix.pch"; sourceTree = "<group>"; };
+		C9AB53261AAF54EF00C225E8 /* CocoaOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaOSC.h; path = ../../CocoaOSC/CocoaOSC/CocoaOSC.h; sourceTree = "<group>"; };
+		C9AB53271AAF54EF00C225E8 /* NS+OSCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NS+OSCAdditions.h"; path = "../../CocoaOSC/CocoaOSC/NS+OSCAdditions.h"; sourceTree = "<group>"; };
+		C9AB53281AAF54EF00C225E8 /* NS+OSCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NS+OSCAdditions.m"; path = "../../CocoaOSC/CocoaOSC/NS+OSCAdditions.m"; sourceTree = "<group>"; };
+		C9AB53291AAF54EF00C225E8 /* OSCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCConnection.h; path = ../../CocoaOSC/CocoaOSC/OSCConnection.h; sourceTree = "<group>"; };
+		C9AB532A1AAF54EF00C225E8 /* OSCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCConnection.m; path = ../../CocoaOSC/CocoaOSC/OSCConnection.m; sourceTree = "<group>"; };
+		C9AB532B1AAF54EF00C225E8 /* OSCConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCConnectionDelegate.h; path = ../../CocoaOSC/CocoaOSC/OSCConnectionDelegate.h; sourceTree = "<group>"; };
+		C9AB532C1AAF54EF00C225E8 /* OSCDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCDispatcher.h; path = ../../CocoaOSC/CocoaOSC/OSCDispatcher.h; sourceTree = "<group>"; };
+		C9AB532D1AAF54EF00C225E8 /* OSCDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCDispatcher.m; path = ../../CocoaOSC/CocoaOSC/OSCDispatcher.m; sourceTree = "<group>"; };
+		C9AB532E1AAF54EF00C225E8 /* OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCPacket.h; path = ../../CocoaOSC/CocoaOSC/OSCPacket.h; sourceTree = "<group>"; };
+		C9AB532F1AAF54EF00C225E8 /* OSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCPacket.m; path = ../../CocoaOSC/CocoaOSC/OSCPacket.m; sourceTree = "<group>"; };
+		C9AB53351AAF59E900C225E8 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = ../../AsyncSocket/AsyncSocket.h; sourceTree = "<group>"; };
+		C9AB53361AAF59E900C225E8 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = ../../AsyncSocket/AsyncSocket.m; sourceTree = "<group>"; };
+		C9AB53371AAF59E900C225E8 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = ../../AsyncSocket/AsyncUdpSocket.h; sourceTree = "<group>"; };
+		C9AB53381AAF59E900C225E8 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = ../../AsyncSocket/AsyncUdpSocket.m; sourceTree = "<group>"; };
+		C9AB533B1AAF5CD900C225E8 /* CoreDataHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		C9AB533C1AAFA14C00C225E8 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = "../../RegexKitLite-4.0/RegexKitLite.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,30 +103,32 @@
 			children = (
 				C965D3CB1AACDB31001BA5DD /* RIME */,
 				C965D3E51AACDB31001BA5DD /* RIMETests */,
-				C965D3CA1AACDB31001BA5DD /* Products */,
+				C9AB53021AAF510900C225E8 /* RIME.app */,
+				C9AB53031AAF510900C225E8 /* RIMETests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		C965D3CA1AACDB31001BA5DD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C965D3C91AACDB31001BA5DD /* RIME.app */,
-				C965D3E21AACDB31001BA5DD /* RIMETests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C965D3CB1AACDB31001BA5DD /* RIME */ = {
 			isa = PBXGroup;
 			children = (
+				C9AB53341AAF59D400C225E8 /* AsyncSocket */,
+				C9AB53241AAF547A00C225E8 /* GCDAsync */,
+				C9AB53231AAF546F00C225E8 /* CocoaOSC */,
+				C965D3D61AACDB31001BA5DD /* Main.storyboard */,
 				C965D3D01AACDB31001BA5DD /* AppDelegate.h */,
 				C965D3D11AACDB31001BA5DD /* AppDelegate.m */,
 				C965D3D31AACDB31001BA5DD /* ViewController.h */,
 				C965D3D41AACDB31001BA5DD /* ViewController.m */,
-				C965D3D61AACDB31001BA5DD /* Main.storyboard */,
+				C92F1C8D1AAE73F7009BBBEE /* RIMEViewController.h */,
+				C92F1C8E1AAE73F7009BBBEE /* RIMEViewController.m */,
+				C92F1C871AAE69DB009BBBEE /* ConnectivityViewController.h */,
+				C92F1C881AAE69DB009BBBEE /* ConnectivityViewController.m */,
+				C92F1C8A1AAE6AD9009BBBEE /* ConnectivityInfo.h */,
+				C92F1C8B1AAE6AD9009BBBEE /* ConnectivityInfo.m */,
 				C965D3D91AACDB31001BA5DD /* Images.xcassets */,
 				C965D3DB1AACDB31001BA5DD /* LaunchScreen.xib */,
 				C965D3CC1AACDB31001BA5DD /* Supporting Files */,
+				C9AB533B1AAF5CD900C225E8 /* CoreDataHelper.h */,
 			);
 			path = RIME;
 			sourceTree = "<group>";
@@ -119,6 +159,47 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C9AB53231AAF546F00C225E8 /* CocoaOSC */ = {
+			isa = PBXGroup;
+			children = (
+				C9AB533C1AAFA14C00C225E8 /* RegexKitLite.h */,
+				C9AB53251AAF54EF00C225E8 /* CocoaOSC-Prefix.pch */,
+				C9AB53261AAF54EF00C225E8 /* CocoaOSC.h */,
+				C9AB53271AAF54EF00C225E8 /* NS+OSCAdditions.h */,
+				C9AB53281AAF54EF00C225E8 /* NS+OSCAdditions.m */,
+				C9AB53291AAF54EF00C225E8 /* OSCConnection.h */,
+				C9AB532A1AAF54EF00C225E8 /* OSCConnection.m */,
+				C9AB532B1AAF54EF00C225E8 /* OSCConnectionDelegate.h */,
+				C9AB532C1AAF54EF00C225E8 /* OSCDispatcher.h */,
+				C9AB532D1AAF54EF00C225E8 /* OSCDispatcher.m */,
+				C9AB532E1AAF54EF00C225E8 /* OSCPacket.h */,
+				C9AB532F1AAF54EF00C225E8 /* OSCPacket.m */,
+			);
+			name = CocoaOSC;
+			sourceTree = "<group>";
+		};
+		C9AB53241AAF547A00C225E8 /* GCDAsync */ = {
+			isa = PBXGroup;
+			children = (
+				C92F1C811AAE59BA009BBBEE /* GCDAsyncSocket.h */,
+				C92F1C821AAE59BA009BBBEE /* GCDAsyncSocket.m */,
+				C92F1C831AAE59BA009BBBEE /* GCDAsyncUdpSocket.h */,
+				C92F1C841AAE59BA009BBBEE /* GCDAsyncUdpSocket.m */,
+			);
+			name = GCDAsync;
+			sourceTree = "<group>";
+		};
+		C9AB53341AAF59D400C225E8 /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				C9AB53351AAF59E900C225E8 /* AsyncSocket.h */,
+				C9AB53361AAF59E900C225E8 /* AsyncSocket.m */,
+				C9AB53371AAF59E900C225E8 /* AsyncUdpSocket.h */,
+				C9AB53381AAF59E900C225E8 /* AsyncUdpSocket.m */,
+			);
+			name = AsyncSocket;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,7 +217,7 @@
 			);
 			name = RIME;
 			productName = RIME;
-			productReference = C965D3C91AACDB31001BA5DD /* RIME.app */;
+			productReference = C9AB53021AAF510900C225E8 /* RIME.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C965D3E11AACDB31001BA5DD /* RIMETests */ = {
@@ -154,7 +235,7 @@
 			);
 			name = RIMETests;
 			productName = RIMETests;
-			productReference = C965D3E21AACDB31001BA5DD /* RIMETests.xctest */;
+			productReference = C9AB53031AAF510900C225E8 /* RIMETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -184,7 +265,7 @@
 				Base,
 			);
 			mainGroup = C965D3C01AACDB31001BA5DD;
-			productRefGroup = C965D3CA1AACDB31001BA5DD /* Products */;
+			productRefGroup = C965D3C01AACDB31001BA5DD;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -219,9 +300,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92F1C851AAE59BA009BBBEE /* GCDAsyncSocket.m in Sources */,
+				C9AB53391AAF59E900C225E8 /* AsyncSocket.m in Sources */,
+				C92F1C861AAE59BA009BBBEE /* GCDAsyncUdpSocket.m in Sources */,
 				C965D3D51AACDB31001BA5DD /* ViewController.m in Sources */,
+				C92F1C8F1AAE73F7009BBBEE /* RIMEViewController.m in Sources */,
+				C92F1C891AAE69DB009BBBEE /* ConnectivityViewController.m in Sources */,
+				C9AB53311AAF54EF00C225E8 /* OSCConnection.m in Sources */,
 				C965D3D21AACDB31001BA5DD /* AppDelegate.m in Sources */,
+				C9AB53331AAF54EF00C225E8 /* OSCPacket.m in Sources */,
 				C965D3CF1AACDB31001BA5DD /* main.m in Sources */,
+				C9AB53301AAF54EF00C225E8 /* NS+OSCAdditions.m in Sources */,
+				C92F1C8C1AAE6AD9009BBBEE /* ConnectivityInfo.m in Sources */,
+				C9AB53321AAF54EF00C225E8 /* OSCDispatcher.m in Sources */,
+				C9AB533A1AAF59E900C225E8 /* AsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +362,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -311,7 +403,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -412,6 +504,7 @@
 				C965D3EE1AACDB31001BA5DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C965D3EF1AACDB31001BA5DD /* Build configuration list for PBXNativeTarget "RIMETests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +513,7 @@
 				C965D3F11AACDB31001BA5DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OSCConnectionDelegate.h"
+#import "CoreDataHelper.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
